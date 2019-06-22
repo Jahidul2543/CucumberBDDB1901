@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.848839">
+<testcase classname="Doc String Demo" name="Doc String parsing" time="2.848839">
+<system-out><![CDATA[Given a blog post named with Markdown body..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

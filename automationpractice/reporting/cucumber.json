@@ -1,0 +1,67 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2694714832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Doc String parsing",
+        "description": "",
+        "id": "doc-string-demo;doc-string-parsing",
+        "after": [
+          {
+            "result": {
+              "duration": 75765060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78359004,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a blog post named with Markdown body",
+            "match": {
+              "location": "DocStringDemo.a_blog_post_named_with_Markdown_body(String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "content_type": "",
+              "line": 8,
+              "value": "Doc Strings are handy for passing a larger piece of text to a step definition."
+            }
+          }
+        ]
+      }
+    ],
+    "name": "Doc String Demo",
+    "description": "",
+    "id": "doc-string-demo",
+    "keyword": "Feature",
+    "uri": "docStringDemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@DocString"
+      }
+    ]
+  }
+]
